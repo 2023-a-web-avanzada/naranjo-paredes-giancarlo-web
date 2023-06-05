@@ -1,5 +1,6 @@
 // 08-promesas.js
 const fs = require('fs');
+
 /*
 * Una funcion que acepte como parametro una variable
 * del "path" del archivo y otra variable con el "contenidoArchivo".
@@ -49,17 +50,17 @@ function ejercicio(
     pathArchivoUno,
     pathArchivoDos,
     pathArchivoNuevo
-){
+) {
     let contenidoTotal = '';
     leerArchivo(pathArchivoUno)
         .then(
-            (contenidoPrimerArchivo)=>{
+            (contenidoPrimerArchivo) => {
                 contenidoTotal = contenidoTotal + contenidoPrimerArchivo;
                 return leerArchivo(pathArchivoDos);
             }
         )
         .then(
-            (contenidoSegundoArchivo)=>{
+            (contenidoSegundoArchivo) => {
                 contenidoTotal = contenidoTotal + contenidoSegundoArchivo
                 return escribirArchivo(pathArchivoNuevo, contenidoTotal);
             }
@@ -81,7 +82,7 @@ ejercicio(pathUno, pathDos, pathTres);
 //    de una promesa
 // const a = async function(){}
 // const a = async ()=>{}
-async function ejercicioConAwait(){
+async function ejercicioConAwait() {
     const pathUno = '01-variables.js';
     const pathDos = '06-ejemplo.txt';
     const pathTres = '06-ejemplo-respuesta.txt';

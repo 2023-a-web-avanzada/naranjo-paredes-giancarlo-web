@@ -18,20 +18,21 @@ function promesaEsPar(numero) { // f -> Promesa
 function promesaElevarAlCuadrado(numero) {
     return new Promise((res) => res(Math.pow(numero, 2)));
 }
+
 promesaEsPar(4)
     .then( // try // devolver otra PROMESA
         (data) => {
             console.log('DATA', data); // 4
-             return promesaElevarAlCuadrado(data); // 4
+            return promesaElevarAlCuadrado(data); // 4
         }
     )
-     .then( // try
+    .then( // try
         (data) => {
             console.log('DATA', data);
-             return promesaElevarAlCuadrado(data); // 16
+            return promesaElevarAlCuadrado(data); // 16
         }
     )
-     .then( // try
+    .then( // try
         (data) => {
             console.log('DATA', data);
         }
