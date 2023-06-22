@@ -1,7 +1,7 @@
 import {useState} from "react";
 
 export type PropiedadesComponente = {
-    url: String;
+    url: string;
     iteraciones: number;
     mostrar?: boolean;
 }

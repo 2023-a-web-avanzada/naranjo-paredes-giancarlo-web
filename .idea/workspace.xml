@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aeb69cc-9038-4acd-9c84-d5d534636043" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-javascript/03-operadores.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-javascript/03-operadores.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-javascript/06-callbacks.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-javascript/06-callbacks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-javascript/06-ejemplo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/01-javascript/06-ejemplo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-javascript/08-promesas.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-javascript/08-promesas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-javascript/10-proyecto-node/10-inquirer.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-javascript/10-proyecto-node/10-inquirer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-typescript/01-variables.ts" beforeDir="false" afterPath="$PROJECT_DIR$/02-typescript/01-variables.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-typescript/02-interfaces.ts" beforeDir="false" afterPath="$PROJECT_DIR$/02-typescript/02-interfaces.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-typescript/03-funciones.ts" beforeDir="false" afterPath="$PROJECT_DIR$/02-typescript/03-funciones.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-typescript/04-clases.ts" beforeDir="false" afterPath="$PROJECT_DIR$/02-typescript/04-clases.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/a_hola_mundo/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/a_hola_mundo/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/b_hola_mundo/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/b_hola_mundo/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03-react/my-app/app/c_componentes/CComponente.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/c_componentes/CComponente.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03-react/my-app/app/c_componentes/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/c_componentes/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/componentes/DEstilosEjemplo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/componentes/DEstilosEjemplo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/componentes/c_estilos.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/componentes/c_estilos.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +104,7 @@
       <workItem from="1687200186354" duration="9634000" />
       <workItem from="1687213566931" duration="1946000" />
       <workItem from="1687215577361" duration="3224000" />
-      <workItem from="1687472634739" duration="3895000" />
+      <workItem from="1687472634739" duration="4258000" />
     </task>
     <servers />
   </component>
