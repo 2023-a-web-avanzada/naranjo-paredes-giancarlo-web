@@ -1,0 +1,162 @@
+// Mutables e Inmutables
+// Mutables (re asignadas)
+
+var numeroUno = 1
+let numeroDos = 2
+
+numeroUno = 12
+numeroDos = 8
+
+numeroUno = false
+numeroDos = false
+
+//Asi se puede usar variables inmutables
+
+// Inmutables (re asignadas)
+
+const configuracionArchivos = 'PDF'
+//configuracionArchivos = 'XML'
+
+// No se puede re asignar una variable inmutable
+
+// vamos a preferir CONST > LET > VAR (mejor no usar)
+
+//Tipos de variables (primitivas)
+const numero = 1 // number
+const sueldo = 1.2 // numer
+const texto = 'Giancarlo' // string
+const apellido = "Naranjo" //string
+const hijos = null // object
+const zapatos = undefined //undefined
+console.log(typeof numero)
+console.log(typeof sueldo)
+console.log(typeof texto)
+console.log(typeof apellido)
+console.log(typeof hijos)
+console.log(typeof zapatos)
+
+// Truty y Falsy
+if (true) {
+    console.log('Es verdadero')
+} else {
+    console.log('Es falso')
+}
+
+if ("") {
+    console.log('Es verdadero')
+} else {
+    console.log('Es falso') // Falsy
+}
+
+if ("Giancarlo") {
+    console.log('Es verdadero')// Truty
+} else {
+    console.log('Es falso')
+}
+
+if (-1) {
+    console.log('Es verdadero')// Truty
+} else {
+    console.log('Es falso')
+}
+
+if (0) {
+    console.log('Es verdadero')
+} else {
+    console.log('Es falso')// Falsy
+}
+
+if (1) {
+    console.log('Es verdadero')// Truty
+} else {
+    console.log('Es falso')
+}
+
+if (null) {
+    console.log('Es verdadero')
+} else {
+    console.log('Es falso')
+}
+
+if (undefined) {
+    console.log('Es verdadero')
+} else {
+    console.log('Es falso')
+}
+
+const giancarlo = {
+    nombre: "Giancarlo",
+    apellido: "Naranjo",
+    edad: 22,
+    hijos: null,
+    casado: false,
+    zapatos: undefined,
+
+    ropa: {
+        color: 'plomo',
+        talla: 40
+    },
+    mascotas: ['Cache', 'Pequi', 'Pandi'],
+}
+console.log(giancarlo)
+
+giancarlo.nombre
+giancarlo.apellido
+giancarlo["nombre"]
+
+// Modificar valores
+giancarlo.nombre = "Carlos"
+giancarlo["nombre"] = "Giancarlo"
+
+// Crear atributos
+giancarlo.sueldo
+console.log(giancarlo.sueldo)
+giancarlo.sueldo = 12
+console.log(giancarlo.sueldo)
+giancarlo["gastos"] = 0.8
+console.log(giancarlo.gastos)
+console.log(giancarlo)
+
+// Eliminar propiedades
+giancarlo.nombre = undefined
+console.log(giancarlo)
+console.log(Object.keys(giancarlo))
+console.log(Object.values(giancarlo))
+
+delete giancarlo.nombre
+console.log(Object.keys(giancarlo))
+console.log(Object.values(giancarlo))
+
+// Variables por valor o por referencia
+// Variables por valor
+// Primitivos: number string boolean
+
+// Por valor
+let edadGiancarlo = 33;
+let edadCarlo = edadGiancarlo;
+console.log(edadGiancarlo)
+console.log(edadCarlo)
+edadGiancarlo = edadGiancarlo + 1;
+console.log(edadGiancarlo)
+console.log(edadCarlo)
+
+// Variables por referencia
+// Object : {} []
+let notas = {
+    total: 10
+}
+
+let notasSegundoBimestre = notas;
+notasSegundoBimestre.total = notasSegundoBimestre + 1;
+console.log(notas);
+console.log(notasSegundoBimestre);
+
+// Como clonar objetos
+let notasTercerBimestre = Object.assign({}, notas);
+// Object.assign([], arreglo)
+notasTercerBimestre = notasTercerBimestre.total + 1;
+console.log(notas);
+console.log(notasSegundoBimestre); // 1
+console.log(notasTercerBimestre); // 2
+
+Este es un archivo de ejemplo
