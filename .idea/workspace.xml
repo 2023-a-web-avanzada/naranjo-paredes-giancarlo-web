@@ -5,22 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aeb69cc-9038-4acd-9c84-d5d534636043" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/01-javascript/04-funciones.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-javascript/05-destructuracion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-javascript/06-callbacks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-javascript/07-promesas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-javascript/08-promesas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-javascript/09-json.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-javascript/10-proyecto-node/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-javascript/10-proyecto-node/10-inquirer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-javascript/10-proyecto-node/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-javascript/10-proyecto-node/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-javascript/03-operadores.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-javascript/03-operadores.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-javascript/06-callbacks.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-javascript/06-callbacks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-javascript/06-ejemplo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/01-javascript/06-ejemplo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-javascript/08-promesas.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-javascript/08-promesas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-javascript/10-proyecto-node/10-inquirer.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-javascript/10-proyecto-node/10-inquirer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-typescript/01-variables.ts" beforeDir="false" afterPath="$PROJECT_DIR$/02-typescript/01-variables.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-typescript/02-interfaces.ts" beforeDir="false" afterPath="$PROJECT_DIR$/02-typescript/02-interfaces.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-typescript/03-funciones.ts" beforeDir="false" afterPath="$PROJECT_DIR$/02-typescript/03-funciones.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-typescript/04-clases.ts" beforeDir="false" afterPath="$PROJECT_DIR$/02-typescript/04-clases.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/a_hola_mundo/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/a_hola_mundo/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/b_hola_mundo/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/b_hola_mundo/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/c_componentes/CComponente.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/c_componentes/CComponente.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/c_componentes/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/c_componentes/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/componentes/DEstilosEjemplo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/componentes/DEstilosEjemplo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/componentes/c_estilos.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/componentes/c_estilos.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,35 +48,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Program Files/nodejs/node.exe",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/nodejs/node.exe&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Giancarlo Naranjo\\Desktop\\GitHub\\Octavo_Semestre\\Aplicaciones-web-avanzadas\\naranjo-paredes-giancarlo-web\\03-react\\my-app\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Giancarlo Naranjo\Desktop\GitHub\Octavo_Semestre\Aplicaciones-web-avanzadas\naranjo-paredes-giancarlo-web\02-typescript" />
       <recent name="C:\Users\Giancarlo Naranjo\Desktop\GitHub\Octavo_Semestre\Aplicaciones-web-avanzadas\naranjo-paredes-giancarlo-web\01-javascript" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.10-inquirer.js">
-    <configuration name="02-arreglos.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-javascript/02-arreglos.js" working-dir="$PROJECT_DIR$/01-javascript">
+    <configuration name="06-callbacks.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-javascript/06-callbacks.js" working-dir="$PROJECT_DIR$/01-javascript">
       <method v="2" />
     </configuration>
-    <configuration name="03-operadores.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-javascript/03-operadores.js" working-dir="$PROJECT_DIR$/01-javascript">
+    <configuration name="07-promesas.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-javascript/07-promesas.js" working-dir="$PROJECT_DIR$/01-javascript">
       <method v="2" />
     </configuration>
-    <configuration name="05-destructuracion.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-javascript/05-destructuracion.js" working-dir="$PROJECT_DIR$/01-javascript">
+    <configuration name="08-promesas.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-javascript/08-promesas.js" working-dir="$PROJECT_DIR$/01-javascript">
       <method v="2" />
     </configuration>
     <configuration name="09-json.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-javascript/09-json.js" working-dir="$PROJECT_DIR$/01-javascript">
@@ -76,10 +92,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.10-inquirer.js" />
+        <item itemvalue="Node.js.08-promesas.js" />
+        <item itemvalue="Node.js.07-promesas.js" />
+        <item itemvalue="Node.js.06-callbacks.js" />
         <item itemvalue="Node.js.09-json.js" />
-        <item itemvalue="Node.js.05-destructuracion.js" />
-        <item itemvalue="Node.js.03-operadores.js" />
-        <item itemvalue="Node.js.02-arreglos.js" />
       </list>
     </recent_temporary>
   </component>
@@ -97,12 +113,22 @@
       <workItem from="1684531086144" duration="4605000" />
       <workItem from="1685054097025" duration="26000" />
       <workItem from="1685402253610" duration="2095000" />
-      <workItem from="1686003989536" duration="3915000" />
+      <workItem from="1686003989536" duration="4507000" />
+      <workItem from="1686608109039" duration="5321000" />
+      <workItem from="1687200186354" duration="9634000" />
+      <workItem from="1687213566931" duration="1946000" />
+      <workItem from="1687215577361" duration="3224000" />
+      <workItem from="1687472634739" duration="3895000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/02-typescript/01-variables.js" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

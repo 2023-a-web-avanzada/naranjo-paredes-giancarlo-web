@@ -13,8 +13,6 @@ const b_componente = ()=>{
     return <></>
 }
 */
-
-
 import DEstilosEjemplo from "@/app/componentes/DEstilosEjemplo";
 
 export default function page(){

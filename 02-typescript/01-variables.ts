@@ -30,3 +30,5 @@ edadMultiple = new Date();
 edadMultiple = 2222;
 let numeroUnico: number = 1; //  para igualar a otros se castea
 numeroUnico = numeroUnico + Math.pow((edadMultiple as number), 2);
+
+

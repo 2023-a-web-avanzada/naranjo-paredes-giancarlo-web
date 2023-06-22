@@ -14,7 +14,7 @@ export type C = {
     edad: number; // edad: number,
 }
 
-type Usuario =  {
+type Usuario = {
     nombre: string;
     apellido: string;
     edad?: number | undefined; //  opcional
@@ -27,4 +27,30 @@ type Usuario =  {
     estadoActual?: () => 'AP' | 'AF' | 'AT'; // opcional
     // calcularImpuesto parametro numero impuesto, sueldo + sueldo * impuesto
     // estadoActual no reciba parametros, 'AP' 'AF' 'AT'
+}
+
+let user: Usuario = {
+    nombre: 'Adrian',
+    apellido: 'Eguez',
+    casado: 0,
+    sueldo: 11.2,
+    estado: 'AC',
+
+    imprimirUsuario: (mensaje) => {
+        return 'El mensaje es:' + mensaje;
+
+    },
+    calcularImpuesto: impuesto => {
+        return user.sueldo + user.sueldo * impuesto;
+    },
+    estadoActual: () => {
+        switch (user.estado) {
+            case 'AC':
+                return 'AP';
+            case 'IN':
+                return 'AF';
+            case 'BN':
+                return 'AT'
+        }
+    }
 }
