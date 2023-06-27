@@ -1,0 +1,1 @@
+[{"id":"1","nombreVideojuego":"Spiderman","disponibilidad":"SI","fechaCreacion":"20-06-2023","precio":"20.70","personajes":[{"id":"","fk":"1","nombrePersonaje":"Duende verde","nivel":"5","habilidades":"[volar, musculatura]","especie":"animal"},{"id":"2","fk":"1","nombrePersonaje":"Peter Parker","nivel":"10","habilidades":"[botar telarnia, volar]","especie":"animal"}]}]

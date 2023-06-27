@@ -1,9 +1,8 @@
 'use client'
-
 import CComponente from "@/app/c_componentes/CComponente";
 
 export default function page(){
-    return(
+    return (
         <>
             <CComponente url={'https://www.google.com'}
                          iteraciones={5}
@@ -14,7 +13,7 @@ export default function page(){
             <CComponente url={'https://www.epn.edu.ec'}
                          iteraciones={15}
                          mostrar={true}/>
+
         </>
     )
 }
-

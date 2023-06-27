@@ -5,8 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aeb69cc-9038-4acd-9c84-d5d534636043" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/a_hola_mundo/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/a_hola_mundo/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/b_hola_mundo/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/b_hola_mundo/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03-react/my-app/app/c_componentes/CComponente.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/c_componentes/CComponente.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03-react/my-app/app/c_componentes/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/c_componentes/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/e_custom_hook/Interfaces/moneda.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/e_custom_hook/Interfaces/moneda.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/e_custom_hook/const/monedas.const.ts" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/e_custom_hook/const/monedas.const.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/e_custom_hook/hooks/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/e_custom_hook/hooks/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/e_custom_hook/hooks/useSelectMoneda.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/e_custom_hook/hooks/useSelectMoneda.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/f_use_context/context/ContenedorContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/f_use_context/context/ContenedorContext.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/f_use_context/interfaces/ContenedorContextObjeto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/f_use_context/interfaces/ContenedorContextObjeto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/f_use_context/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/f_use_context/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen-1B/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Examen-1B/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen-1B/examen.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/Examen-1B/examen.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen-1B/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Examen-1B/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen-1B/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Examen-1B/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen-1B/personajes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Examen-1B/personajes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen-1B/simulacionBD.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Examen-1B/simulacionBD.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +54,14 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.16.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.16.0&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Program Files/nodejs/node.exe&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -59,29 +80,29 @@
       <recent name="C:\Users\Giancarlo Naranjo\Desktop\GitHub\Octavo_Semestre\Aplicaciones-web-avanzadas\naranjo-paredes-giancarlo-web\01-javascript" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.10-inquirer.js">
-    <configuration name="06-callbacks.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-javascript/06-callbacks.js" working-dir="$PROJECT_DIR$/01-javascript">
-      <method v="2" />
-    </configuration>
-    <configuration name="07-promesas.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-javascript/07-promesas.js" working-dir="$PROJECT_DIR$/01-javascript">
-      <method v="2" />
-    </configuration>
-    <configuration name="08-promesas.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-javascript/08-promesas.js" working-dir="$PROJECT_DIR$/01-javascript">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.examen.mjs">
     <configuration name="09-json.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-javascript/09-json.js" working-dir="$PROJECT_DIR$/01-javascript">
       <method v="2" />
     </configuration>
     <configuration name="10-inquirer.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-javascript/10-proyecto-node/10-inquirer.js" working-dir="$PROJECT_DIR$/01-javascript/10-proyecto-node">
       <method v="2" />
     </configuration>
+    <configuration name="examen.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Examen_1B/examen.js" working-dir="$PROJECT_DIR$/Examen_1B">
+      <method v="2" />
+    </configuration>
+    <configuration name="examen.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Examen-1B/examen.mjs" working-dir="$PROJECT_DIR$/Examen-1B">
+      <method v="2" />
+    </configuration>
+    <configuration name="gestionadorVideojuego.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Examen_1B/gestionadorVideojuego.js" working-dir="$PROJECT_DIR$/Examen_1B">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.10-inquirer.js" />
-        <item itemvalue="Node.js.08-promesas.js" />
-        <item itemvalue="Node.js.07-promesas.js" />
-        <item itemvalue="Node.js.06-callbacks.js" />
+        <item itemvalue="Node.js.examen.mjs" />
         <item itemvalue="Node.js.09-json.js" />
+        <item itemvalue="Node.js.examen.js" />
+        <item itemvalue="Node.js.10-inquirer.js" />
+        <item itemvalue="Node.js.gestionadorVideojuego.js" />
       </list>
     </recent_temporary>
   </component>
@@ -104,7 +125,12 @@
       <workItem from="1687200186354" duration="9634000" />
       <workItem from="1687213566931" duration="1946000" />
       <workItem from="1687215577361" duration="3224000" />
-      <workItem from="1687472634739" duration="4258000" />
+      <workItem from="1687472634739" duration="4596000" />
+      <workItem from="1687478231199" duration="99000" />
+      <workItem from="1687755323990" duration="8843000" />
+      <workItem from="1687801095048" duration="5353000" />
+      <workItem from="1687817579034" duration="6000" />
+      <workItem from="1687817597064" duration="19782000" />
     </task>
     <servers />
   </component>
@@ -113,6 +139,7 @@
     <option name="exactExcludedFiles">
       <list>
         <option value="$PROJECT_DIR$/02-typescript/01-variables.js" />
+        <option value="$PROJECT_DIR$/02-typescript/04-clases.js" />
       </list>
     </option>
   </component>
