@@ -5,25 +5,83 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aeb69cc-9038-4acd-9c84-d5d534636043" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/03-react/my-app/app/d_use_state/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-react/my-app/app/e_custom_hook/interfaces/moneda.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-react/my-app/app/e_custom_hook/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-react/my-app/app/f_use_context/components/EComponenteA.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-react/my-app/app/f_use_context/components/EComponenteB.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-react/my-app/app/f_use_context/components/EComponenteC.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-react/my-app/app/f_use_context/components/EContenedor.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-react/my-app/app/f_use_context/context/ContenedorContext.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-react/my-app/app/g_ejemplo_criptomoneda/components/CryptoFormulario.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-react/my-app/app/g_ejemplo_criptomoneda/interfaces/consulta-moneda.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-react/my-app/app/g_ejemplo_criptomoneda/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-react/my-app/app/h_mui_konsta/components/EjemploKonsta.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-react/my-app/app/h_mui_konsta/components/EjemploMui.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-react/my-app/app/h_mui_konsta/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-react/my-app/app/i_react_hook_form/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-react/my-app/app/i_react_hook_form/types/formulario-ejemplo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-react/my-app/app/j_ruta/[idUsuario]/[semestre]/[materia]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-react/my-app/app/j_ruta/[idUsuario]/[semestre]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-react/my-app/app/j_ruta/[idUsuario]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-react/my-app/app/k_websockets/components/MensajeChat.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-react/my-app/app/k_websockets/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-react/my-app/app/k_websockets/types/formulario-modelo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-react/my-app/app/k_websockets/types/mensaje-chat-props.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/nest-cli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/src/app.controller.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/src/app.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/src/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/src/app.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/src/eventos/eventos.gateway.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/src/eventos/eventos.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/src/eventos/eventos.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/test/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/test/jest-e2e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/tsconfig.build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-nestjs-websockets/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nickelodeon/nick/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nickelodeon/nick/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nickelodeon/nick/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nickelodeon/nick/app/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nickelodeon/nick/app/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nickelodeon/nick/app/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nickelodeon/nick/app/misEstilos.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nickelodeon/nick/app/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nickelodeon/nick/next.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nickelodeon/nick/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nickelodeon/nick/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nickelodeon/nick/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nickelodeon/nick/public/next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nickelodeon/nick/public/vercel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nickelodeon/nick/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nickelodeon/nick/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nickelodeon/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nickelodeon/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/naranjo-paredes-giancarlo-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/naranjo-paredes-giancarlo-web.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/a_hola_mundo/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/a_hola_mundo/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/b_hola_mundo/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/b_hola_mundo/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03-react/my-app/app/c_componentes/CComponente.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/c_componentes/CComponente.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/c_componentes/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/c_componentes/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/e_custom_hook/Interfaces/moneda.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/e_custom_hook/Interfaces/moneda.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/componentes/c_menu.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/componentes/c_menu.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/e_custom_hook/Interfaces/moneda.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/e_custom_hook/interfaces/moneda.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03-react/my-app/app/e_custom_hook/const/monedas.const.ts" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/e_custom_hook/const/monedas.const.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/e_custom_hook/hooks/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/e_custom_hook/hooks/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03-react/my-app/app/e_custom_hook/hooks/useSelectMoneda.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/e_custom_hook/hooks/useSelectMoneda.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/f_use_context/context/ContenedorContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/f_use_context/context/ContenedorContext.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03-react/my-app/app/f_use_context/interfaces/ContenedorContextObjeto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/f_use_context/interfaces/ContenedorContextObjeto.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03-react/my-app/app/f_use_context/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/f_use_context/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-react/my-app/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03-react/my-app/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examen-1B/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Examen-1B/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examen-1B/examen.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/Examen-1B/examen.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examen-1B/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Examen-1B/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examen-1B/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Examen-1B/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examen-1B/personajes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Examen-1B/personajes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examen-1B/simulacionBD.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Examen-1B/simulacionBD.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-react/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-react/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-react/my-app/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/03-react/my-app/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +92,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -76,6 +135,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Giancarlo Naranjo\Desktop\GitHub\Octavo_Semestre\Aplicaciones-web-avanzadas\naranjo-paredes-giancarlo-web\nickelodeon\nick\app" />
+      <recent name="C:\Users\Giancarlo Naranjo\Desktop\GitHub\Octavo_Semestre\Aplicaciones-web-avanzadas\naranjo-paredes-giancarlo-web\nickelodeon\nick\app\Nickelodeon" />
+      <recent name="C:\Users\Giancarlo Naranjo\Desktop\GitHub\Octavo_Semestre\Aplicaciones-web-avanzadas\naranjo-paredes-giancarlo-web\03-react\my-app\app\g_ejemplo_criptomoneda\components" />
       <recent name="C:\Users\Giancarlo Naranjo\Desktop\GitHub\Octavo_Semestre\Aplicaciones-web-avanzadas\naranjo-paredes-giancarlo-web\02-typescript" />
       <recent name="C:\Users\Giancarlo Naranjo\Desktop\GitHub\Octavo_Semestre\Aplicaciones-web-avanzadas\naranjo-paredes-giancarlo-web\01-javascript" />
     </key>
@@ -131,6 +193,15 @@
       <workItem from="1687801095048" duration="5353000" />
       <workItem from="1687817579034" duration="6000" />
       <workItem from="1687817597064" duration="19782000" />
+      <workItem from="1688422461843" duration="6157000" />
+      <workItem from="1689027863787" duration="5129000" />
+      <workItem from="1689286615124" duration="106000" />
+      <workItem from="1689356042178" duration="8212000" />
+      <workItem from="1689453919884" duration="11078000" />
+      <workItem from="1690237462954" duration="3934000" />
+      <workItem from="1690495878031" duration="3554000" />
+      <workItem from="1690578993335" duration="4090000" />
+      <workItem from="1690842119629" duration="4468000" />
     </task>
     <servers />
   </component>

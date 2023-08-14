@@ -1,12 +1,15 @@
+
+// e_custom_hook/hooks/useSelectMoneda.tsx
+import {Moneda} from "@/app/e_custom_hook/interfaces/moneda";
 import {useState} from "react";
-import {Moneda} from "@/app/e_custom_hook/Interfaces/moneda";
 
 export default function useSelectMoneda(
     label: string,
     opciones: Moneda[]
-) {
+){
     const [moneda, setMoneda] = useState('');
-    const generarSelect = () => {
+
+    const generarSelect = ()=>{
         return opciones.map(
             (moneda) => {
                 return (
@@ -17,6 +20,7 @@ export default function useSelectMoneda(
             }
         )
     }
+
     const UseSelectMonedas = (
         <>
             <label className="form-label" htmlFor={label}>{label}</label>
@@ -24,17 +28,16 @@ export default function useSelectMoneda(
                     name={label}
                     id={label}
                     value={moneda}
-                    onChange={e => {
+                    onChange={ e => {
                         e.preventDefault();
                         setMoneda(e.target.value)
                     }}
             >
                 <option value="">Seleccionar opcion</option>
                 {generarSelect()}
-            </ select>
+            </select>
         </>
     )
+
     return [moneda, UseSelectMonedas]
 }
-
-
