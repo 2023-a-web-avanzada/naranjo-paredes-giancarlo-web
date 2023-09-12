@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aeb69cc-9038-4acd-9c84-d5d534636043" name="Changes" comment="Examen 2B">
-      <change beforePath="$PROJECT_DIR$/02-typescript/04-clases.ts" beforeDir="false" afterPath="$PROJECT_DIR$/02-typescript/04-clases.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examen_2b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +142,7 @@
       <workItem from="1694537599120" duration="12000" />
       <workItem from="1694538951333" duration="1812000" />
       <workItem from="1694540825983" duration="93000" />
-      <workItem from="1694541127121" duration="516000" />
+      <workItem from="1694541127121" duration="1231000" />
     </task>
     <task id="LOCAL-00001" summary="Examen 2B">
       <created>1694540317675</created>
