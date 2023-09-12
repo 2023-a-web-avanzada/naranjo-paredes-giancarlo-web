@@ -18,16 +18,13 @@ export class EventosGateway {
 
     @SubscribeMessage('hola') // Nombre del metodo para recibir eventos
     devolverHola(
-        @MessageBody()
-            message: { mensaje: string },
-        @ConnectedSocket()
-            socket: Socket // import {Server, Socket} from 'socket.io';
-    ) {
+        @MessageBody() message: { mensaje: string },
+        @ConnectedSocket() socket: Socket): // import {Server, Socket} from 'socket.io';
+        { mensaje: "ok" } {
         console.log('message', message);
         socket.broadcast //
             // broadcast = > TODOS LOS CLIENTES CONECTADOS
-            // Y que esten escuchando el evento "escucharEventoHola"
-            // les llegue el mensaje
+            // Y que esten escuchando el evento "escucharEventoHola" les llegue el mensaje
             .emit(
                 'escucharEventoHola', //  Nombre evento que vamos a enviar a los clientes conectados
                 { // OBJETO A ENVIAR
@@ -57,20 +54,19 @@ export class EventosGateway {
 
     }
 
-    enviarMensaje(
+    @SubscribeMessage('turno')
+    enviarTurno(
         @MessageBody()
-            message: { salald: string, nombre: string, mensaje: string },
+            message: { turno: string },
         @ConnectedSocket()
             socket: Socket
     ) {
 // backend
-        const mensajeSala = {
-            nombre: message.nombre, mensaje: message.mensaje,
-            salald: message.salald
+        const turnoEnviado = {
+            turno: message.turno
         };
         socket.broadcast
-            .to(message.salald) // Sala a la que enviamos el mensaje
-            .emit('escucharEventoMensajeSala', mensajeSala); // nombre del evento y datos a envia
+            .emit('escucharTurno', turnoEnviado); // nombre del evento y datos a envia
         return {mensaje: 'ok'}; // Callback
     }
 }

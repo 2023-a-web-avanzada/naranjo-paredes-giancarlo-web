@@ -1,113 +1,113 @@
-import Image from 'next/image'
+'use client'
+import cStyles from './misEstilos.module.css'
+import {useEffect, useState} from "react";
+import {TURNS} from "@/app/constans";
+import {checkWinner, checkEndGame} from "@/app/logic/board";
+import Square from "@/app/components/Square";
+import WinnerModal from "@/app/components/WinnerModal";
+import io from "socket.io-client"
+
+const servidorWebsocket = 'http://localhost:11202'
+const socket = io(servidorWebsocket)
+
 
 export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    const [board, setBoard] = useState(Array(9).fill(null))
+    const [turn, setTurn] = useState(TURNS.X)
+    const [winner, setWinner] = useState(null)
+    const [isConnected, setIsConnected] = useState(socket.connected)
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+    useEffect(() => {
+        socket.on('connect', () => {
+            setIsConnected(true);
+            console.log('Si esta conectado')
+        });
+        socket.on('disconnect', () => {
+            setIsConnected(false)
+            console.log('no esta conectado')
+        })
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+        socket.on('escucharTurno', (data: { turno: string }) => {
+            console.log('escucharTurno', data)
+            const newTurn = turn === TURNS.X ? TURNS.O : TURNS.X
+            setTurn(newTurn)
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+        })
+    }, [])
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+    const updateBoard = (index: number) => {
+        const objeto = {index, board, turn}
+
+        socket.emit(
+            'turno',
+            objeto,
+            () => {
+                const newBoard = [...board]
+                newBoard[index] = turn
+                setBoard(newBoard)
+
+            }
+        )
+
+
+        //Logica para no colocar una casilla dos veces
+        if (board[index] || winner) return
+        //Logica para guardar el estado actual del tablero en base al turno
+        const newBoard = [...board]
+        newBoard[index] = turn
+        setBoard(newBoard)
+        //Logica para el cambio de turno
+        const newTurn = turn === TURNS.X ? TURNS.O : TURNS.X
+        setTurn(newTurn)
+        //Logica para el ganador
+        const newWinner = checkWinner(newBoard)
+        if (newWinner) {
+            setWinner(newWinner)
+        } else if (checkEndGame(newBoard)) {
+            setWinner(false)
+        }
+    }
+
+    const resetGame = () => {
+        setBoard(Array(9).fill(null))
+        setTurn(TURNS.X)
+        // @ts-ignore
+        setWinner(null)
+    }
+
+    return (
+        <main className={cStyles.board}>
+            <h1>Tic Tac Toe</h1>
+            <button onClick={resetGame}>Reset del juego</button>
+            <section className={cStyles.game}>
+                {
+                    board.map((objeto, index) => {
+                        return (
+                            <Square
+                                key={index}
+                                index={index}
+                                updateBoard={updateBoard}
+                            >
+                                {objeto}
+                            </Square>
+
+                        )
+                    })
+
+                }
+
+            </section>
+            <section className={cStyles.turn}>
+                <Square isSelected={turn === TURNS.X}>
+                    {TURNS.X}
+                </Square>
+                <Square isSelected={turn === TURNS.O}>
+                    {TURNS.O}
+                </Square>
+            </section>
+            <WinnerModal resetGame={resetGame} winner={winner}/>
+
+        </main>
+    )
 }

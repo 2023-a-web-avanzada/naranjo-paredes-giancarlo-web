@@ -54,7 +54,9 @@ export default function Page() {
 
             socket.on('escucharEventoUnirseSala', (data: { mensaje: string }) => {
                 const nuevoMensaje: MensajeChatProps = {
-                    mensaje: data.mensaje, nombre: 'Sistema', posicion: Posicion.I
+                    mensaje: data.mensaje,
+                    nombre: 'Sistema',
+                    posicion: Posicion.I
                 };
                 setMensajes((mensajesAnteriores) => [...mensajesAnteriores,
                     nuevoMensaje]);
@@ -71,6 +73,12 @@ export default function Page() {
             });
         },
         []
+
+        //Enviar el evento
+        //Socket emite el evento (nombreDelEventoSocket, datos del evento,
+        // respuesta del evento en front-end
+        //socket.on escucha el evento (escucharEvento, data del evento Objeto (Servidor)
+        //
     )
 
     const enviarEventoHola = () => {
@@ -78,8 +86,7 @@ export default function Page() {
         socket.emit(
             'hola', // Nombre Evento
             mensaje, //  Datos evento
-            (datosEventoHola: { mensaje: string; }) => {
-                // Callback o respuesta del evefnto
+            (datosEventoHola: { mensaje: string; }) => { // Callback o respuesta del evefnto
                 console.log(datosEventoHola)
                 //     const [arreglo, setArreglo] = useState([1,2])
                 //      setArreglo( [1,2,3] )

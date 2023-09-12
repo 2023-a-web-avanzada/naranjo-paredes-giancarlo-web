@@ -14,14 +14,7 @@ enum ListaColores {
 export default function CComponente(
     props: PropiedadesComponente
 ) {
-    // const url = props.url
-    // const iteraciones = props.iteraciones
-    // const mostrar = props.mostrar
     const {url, iteraciones, mostrar} = props;
-    const arreglo = [0, 1]
-    // const numeroUno = arreglo[0]
-    // const numeroDos = arreglo[1]
-    const [numeroUno, numeroDos] = arreglo
     const contenidoAdicional: () => (JSX.Element) = () => {
         if (mostrar) {
             return <p>Mostrar</p>
@@ -29,7 +22,6 @@ export default function CComponente(
         contenidoAdicional
         return <p>Ocultar</p>
     }
-    const objeto = {}
 
     // useState
     const [iteracionLocal, setIteracionLocal] = useState(
