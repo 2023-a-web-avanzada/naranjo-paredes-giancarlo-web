@@ -42,3 +42,4 @@ adrian.apellido;
 adrian.cedula; // '1718137159'
 adrian.estadoCivil; // 'casado'
 
+const nuevaVariable = 1
