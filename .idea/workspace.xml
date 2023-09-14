@@ -5,7 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aeb69cc-9038-4acd-9c84-d5d534636043" name="Changes" comment="Examen 2B">
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/app/api/usuario/[idUsuario]/route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/app/api/usuario/route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/app/biblioteca/[idUsuario]/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/app/componentes/carteleraDeImagenes.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/app/componentes/categorias.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/app/componentes/footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/app/componentes/navPaginaPrincipal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/app/componentes/tarjetaJugador.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/app/componentes/tarjetaVideojuego.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/app/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/app/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/app/layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/app/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/app/paginaPrincipal/[idUsuario]/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/app/perfil/[idUsuario]/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/app/registrarse/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/conexion/mongodb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/modelos/usuario.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/next.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/public/next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/public/vercel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto_2b/tailwind.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +98,11 @@
       <recent name="C:\Users\Giancarlo Naranjo\Desktop\GitHub\Octavo_Semestre\Aplicaciones-web-avanzadas\naranjo-paredes-giancarlo-web\Deber_2B\React\tres_en_raya\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Giancarlo Naranjo\Desktop\GitHub\Octavo_Semestre\Aplicaciones-web-avanzadas\naranjo-paredes-giancarlo-web" />
       <recent name="C:\Users\Giancarlo Naranjo\Desktop\GitHub\Octavo_Semestre\Aplicaciones-web-avanzadas\naranjo-paredes-giancarlo-web\examen_2b\app\addCharacter\[idVideogame]" />
       <recent name="C:\Users\Giancarlo Naranjo\Desktop\GitHub\Octavo_Semestre\Aplicaciones-web-avanzadas\naranjo-paredes-giancarlo-web\examen-crud-2b\app\about" />
       <recent name="C:\Users\Giancarlo Naranjo\Desktop\GitHub\Octavo_Semestre\Aplicaciones-web-avanzadas\naranjo-paredes-giancarlo-web\examen-2b\src\app\pages" />
       <recent name="C:\Users\Giancarlo Naranjo\Desktop\GitHub\Octavo_Semestre\Aplicaciones-web-avanzadas\naranjo-paredes-giancarlo-web\nickelodeon\nick\app" />
-      <recent name="C:\Users\Giancarlo Naranjo\Desktop\GitHub\Octavo_Semestre\Aplicaciones-web-avanzadas\naranjo-paredes-giancarlo-web\nickelodeon\nick\app\Nickelodeon" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.examen.mjs">
@@ -142,7 +175,9 @@
       <workItem from="1694537599120" duration="12000" />
       <workItem from="1694538951333" duration="1812000" />
       <workItem from="1694540825983" duration="93000" />
-      <workItem from="1694541127121" duration="1231000" />
+      <workItem from="1694541127121" duration="4828000" />
+      <workItem from="1694578589252" duration="19045000" />
+      <workItem from="1694622837342" duration="27621000" />
     </task>
     <task id="LOCAL-00001" summary="Examen 2B">
       <created>1694540317675</created>
